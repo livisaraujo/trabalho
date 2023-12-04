@@ -1,0 +1,329 @@
+body{
+	font-family: sans-serif;
+
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+strong{
+	font-size: 25px;
+	
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+h1{
+	margin-left: 100px;
+	margin-top: 0px;
+}
+
+ /* ------------------------------------------------ LINKS --------------------------------------------------*/
+
+a{
+	text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgb(47, 158,65);
+}
+
+ /* ------------------------------------------------ CABEÇALHO ----------------------------------------------*/
+
+.claus{
+	width: 100%;
+	height: 30vh;
+	background-color: rgb(75, 73, 73);
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+
+}
+
+.celestial{
+	width: 17%;
+	height: 30vh;
+	background-color: rgb(75, 73, 73);
+}
+
+.heartaches{
+	background-color: rgb(75, 73, 73);
+	width: 70%;
+	height: 10vh;
+	margin-top: 170px;
+}
+
+.naquela{
+	font-size: 25px;
+	margin-left: 90px;
+}
+
+ /* ------------------------------------------------- BODY ------------------------------------------------*/
+
+.homeless{
+	width: 100%;
+	height: 174vh;
+	background-color: rgb(34, 34, 34);
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.calice{
+	width: 99%;
+	height: 50vh;
+	background-color: rgb(34, 34, 34);
+
+	display: flex;
+	flex-direction: column;
+
+	margin-left: 6px;
+	margin-right: 5px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.emergir{
+	width: 30%;
+	height: 5vh;
+	background-color: rgb(34, 34, 34);
+
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.resonance{
+	width: 99,9%;
+	height: 70vh;
+	background-color: rgb(60, 60, 60);
+
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	border-radius: 30px
+}
+
+.hylics{
+	width: 99%;
+	height: 93vh;
+	background-color: rgb(34, 34, 34);
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.hidden{
+	width: 24%;
+	height: 30vh;
+	background-color: rgb(34, 34, 34);
+
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.boderline{
+	width: 24%;
+	height: 60vh;
+	background-color: rgb(60, 60, 60);
+
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 30px
+}
+
+.materia{
+	margin-left: 63px;
+}
+
+.preciso{
+	font-size: 25px;
+	margin-left: 10px;
+	margin-right:10px;
+	text-align: justify;
+}
+
+	/* -------------------------------------------------- RODAPÉ ----------------------------------------------*/
+
+	.same{
+	width: 100%;
+	height: 24vh;
+	background-color: rgb(75, 73, 73);
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.abismo{
+	width: 42%;
+	height: 20vh;
+	background-color: rgb(75, 73, 73);
+
+	margin-top: 20px;
+}
+
+.divina{
+	width: 30%;
+	height: 24vh;
+	background-color: rgb(75, 73, 73);
+}
+
+.afogar{
+	width: 28%;
+	height: 24vh;
+	background-color: rgb(75, 73, 73);
+}
+
+.ipanema{
+	font-size: 20px;
+	text-align: center;
+}
+
+/* ---------------------------------------------- MEDIA QUERES --------------------------------------------*/
+
+
+@media (max-width: 932px){
+
+	.claus{
+		width: 100%;
+		height: 220px;
+	}
+
+	.homeless{
+		width: 100%;
+		height: 4480px;
+	}
+
+	/* ----------------------------------- CABEÇALHO */
+
+	.logo{
+		width: 330%;
+ 		height: 190px;
+ 	}
+
+	.celestial{
+		width: 17%;
+		height: 2vh;
+	}
+
+ 	.heartaches{
+		width: 100%;
+		height: 7vh;
+ 	}
+
+ 	.naquela{
+		font-size: 9px;
+		margin-top: 30px;
+		margin-left: 8px;
+	}
+
+ /* ---------------------------------------- BODY */
+
+ 	.calice{
+ 		width: 100%;
+ 		height: 900px;
+
+ 		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 30px;
+		margin-bottom: 20px;
+ 	}
+
+ 	.emergir{
+		width: 90%;
+		height: 5vh;
+	}
+
+	.resonance{
+	width: 99,9%;
+	height: 89vh;
+	}
+	
+	.hylics{
+		width: 98%;
+		height: 355vh;
+	}
+
+	.hidden{
+		width: 80%;
+		height: 30vh;
+
+		margin-left: 40px;
+		margin-right: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.boderline{
+		width: 90%;
+		height: 55vh;
+
+		margin-left: 20px;
+		margin-right: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.materia{
+		width: 90%;
+		height: 280px;
+		margin-left: 15px;
+	}
+
+	/* ----------------------------------------------------- RODAPÉ */
+
+	.same{
+		width: 100%;
+		height: 20vh;
+		margin-top: 20px;
+	}
+
+	.abismo{
+		width: 90%;
+		height: 15vh;
+	}
+
+	.divina{
+		width: 5%;
+		height: 20vh;
+	}
+
+	.afogar{
+		width: 5%;
+		height: 20vh;
+	}
+
+	.rodape{
+		width: 0%;
+		height: 0vh;
+	}
+

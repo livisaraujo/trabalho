@@ -1,0 +1,385 @@
+body{
+	font-family: sans-serif;
+
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+strong{
+	font-size: 30px;
+	 
+	margin-top: 10px;
+	margin-left: 740px;
+	margin-bottom: 10px;
+}
+
+h1{
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+ /* ------------------------------------------------ LINKS --------------------------------------------------*/
+
+a{
+	text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgb(47, 158,65);
+}
+
+ /* ------------------------------------------------ CABEÇALHO ----------------------------------------------*/
+
+.claus{
+	width: 100%;
+	height: 30vh;
+	background-color: rgb(75, 73, 73);
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+
+}
+
+.celestial{
+	width: 17%;
+	height: 30vh;
+	background-color: rgb(75, 73, 73);
+}
+
+.heartaches{
+	background-color: rgb(75, 73, 73);
+	width: 70%;
+	height: 10vh;
+	margin-top: 170px;
+}
+
+.naquela{
+	font-size: 25px;
+	margin-left: 90px;
+}
+
+ /* ------------------------------------------------- BODY ------------------------------------------------*/
+
+.homeless{
+	width: 100%;
+	height: 233vh;
+	background-color: rgb(34, 34, 34);
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.sound{
+	width: 100%;
+	height: 10vh;
+	background-color: rgb(40, 40, 40);
+}
+
+.tropia{
+	width: 100%;
+	height: 33vh;
+	background-color: rgb(34, 34, 34);
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+
+	margin-top: 15px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+
+.alien{
+	width: 100%;
+	height: 33vh;
+	background-color: rgb(34, 34, 34);
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+
+	margin-top: 15px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+
+.jovem{
+	width: 100%;
+	height: 50vh;
+	background-color: rgb(34, 34, 34);
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	margin-top: 15px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+
+.lucas{
+	width: 100%;
+	height: 38vh;
+	background-color: rgb(34, 34, 34);
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	margin-top: 15px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+
+.titulo{
+	width: 100%;
+	height: 5vh;
+	background-color: rgb(34, 34, 34);
+}
+
+.chegar{
+	width: 23%;
+	height: 32vh;
+	background-color: rgb(34, 34, 34);
+
+	margin-top: 5px;
+	margin-left: 25px;
+	margin-bottom: 25px;
+	margin-right: 5px;
+}
+
+.sair{
+	width: 48%;
+	height: 35vh;
+	background-color: rgb(34, 34, 34);
+
+	margin-top: 5px;
+	margin-left: 25px;
+	margin-bottom: 25px;
+	margin-right: 5px;
+}
+
+/* -------------------------------------------------- RODAPÉ ----------------------------------------------*/
+
+.same{
+	width: 100%;
+	height: 25vh;
+	background-color: rgb(75, 73, 73);
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.abismo{
+	width: 42%;
+	height: 21vh;
+	background-color: rgb(75, 73, 73);
+
+	margin-top: 20px;
+}
+
+.divina{
+	width: 30%;
+	height: 24vh;
+	background-color: rgb(75, 73, 73);
+}
+
+.afogar{
+	width: 28%;
+	height: 24vh;
+	background-color: rgb(75, 73, 73);
+}
+
+.ipanema{
+	font-size: 21px;
+	text-align: center;
+}
+
+/* ---------------------------------------------- MEDIA QUERES --------------------------------------------*/
+
+
+@media (max-width: 932px){
+
+	.claus{
+		width: 100%;
+		height: 220px;
+	}
+
+	.homeless{
+		width: 100%;
+		height: 1740px;
+	}
+
+	/* ----------------------------------- CABEÇALHO */
+
+	.logo{
+		width: 330%;
+ 		height: 190px;
+ 	}
+
+	.celestial{
+		width: 17%;
+		height: 2vh;
+	}
+
+ 	.heartaches{
+		width: 100%;
+		height: 7vh;
+ 	}
+
+ 	.naquela{
+		font-size: 9px;
+		margin-top: 30px;
+		margin-left: 8px;
+	}
+
+	/* ---------------------------------------- BODY */
+
+ 	.sound{
+ 		width: 100%;
+ 		height: 70px;
+
+ 		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 30px;
+		margin-bottom: 20px;
+ 	}
+
+	h1{
+		font-size: 17px;
+	}
+
+	strong{
+		font-size: 20px;
+		 
+		margin-top: 10px;
+		margin-left: 70px;
+		margin-bottom: 10px;
+	}
+
+	.titulo{
+		width: 100%;
+		height: 7vh;
+	}
+
+	.planeta{
+		width: 100%;
+		height: 20vh;
+	}
+
+
+	.sair{
+		width: 100%;
+		height: 20vh;
+		background-color: rgb(34, 34, 34);
+
+		margin-top: 5px;
+		margin-left: 5px;
+		margin-bottom: 0px;
+		margin-right: 5px;
+	}
+
+	.jovem{
+		width: 100%;
+		height: 28vh;
+		background-color: rgb(34, 34, 34);
+	}
+
+
+	.tropia{
+		width: 100%;
+		height: 32vh;
+		background-color: rgb(34, 34, 34);
+
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+
+		margin-top: 15px;
+		margin-left: 0px;
+		margin-bottom: 5px;
+		margin-right: 10px;
+	}
+
+	.chegar{
+		width: 47%;
+		height: 15vh;
+		background-color: rgb(34, 34, 34);
+
+		margin-top: 5px;
+		margin-left: 5px;
+		margin-bottom: 5px;
+		margin-right: 5px;
+	}
+
+	.sair{
+		width: 96%;
+		height: 15vh;
+		background-color: rgb(34, 34, 34);
+	}
+
+	.quadrinho{
+		width: 100%;
+		height: 15vh;
+	}
+
+	.lucas{
+		width: 100%;
+		height: 16vh;
+		background-color: rgb(34, 34, 34);
+	}
+
+
+	/* ----------------------------------------------------- RODAPÉ */
+
+	.same{
+		width: 100%;
+		height: 20vh;
+		margin-top: 20px;
+	}
+
+	.abismo{
+		width: 90%;
+		height: 15vh;
+	}
+
+	.divina{
+		width: 5%;
+		height: 20vh;
+	}
+
+	.afogar{
+		width: 5%;
+		height: 20vh;
+	}
+
+	.rodape{
+		width: 0%;
+		height: 0vh;
+	}
+
